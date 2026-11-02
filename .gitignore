@@ -1,0 +1,33 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+service-account*.json
+*-service-account*.json
+firebase-adminsdk-*.json
+
+# Firebase local emulator data
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Node.js / Functions
+node_modules/
+npm-debug.log*
+
+# .NET build output and local settings
+**/bin/
+**/obj/
+appsettings.Local.json
+*.user
+*.suo
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+outputs/
+work/
+.vs/
