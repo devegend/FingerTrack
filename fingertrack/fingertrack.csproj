@@ -9,7 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="img\**\*">
+    	<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <PackageReference Include="Supabase" Version="8.8.0" />
+    <PackageReference Include="Svg" Version="3.4.8" />
   </ItemGroup>
 
 </Project>

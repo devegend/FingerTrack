@@ -45,7 +45,6 @@ namespace fingertrack
             textBox1 = new TextBox();
             textBox4 = new TextBox();
             button2 = new Button();
-            linkLabel2 = new LinkLabel();
             panel1 = new Panel();
             panel6 = new Panel();
             button1 = new Button();
@@ -229,7 +228,7 @@ namespace fingertrack
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Myanmar Text", 9.75F, FontStyle.Bold);
             button2.ForeColor = Color.FromArgb(0, 0, 192);
-            button2.Location = new Point(119, 462);
+            button2.Location = new Point(119, 441);
             button2.Name = "button2";
             button2.Size = new Size(210, 37);
             button2.TabIndex = 9;
@@ -237,23 +236,9 @@ namespace fingertrack
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
-            // linkLabel2
-            // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.LinkColor = Color.Black;
-            linkLabel2.Location = new Point(52, 407);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.RightToLeft = RightToLeft.No;
-            linkLabel2.Size = new Size(145, 24);
-            linkLabel2.TabIndex = 10;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "Mot de passe oublié ?";
-            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
-            // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(192, 255, 255);
-            panel1.Controls.Add(linkLabel2);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(panel4);
             panel1.Controls.Add(label4);
@@ -390,7 +375,6 @@ namespace fingertrack
         private TextBox textBox1;
         private TextBox textBox4;
         private Button button2;
-        private LinkLabel linkLabel2;
         private Panel panel1;
         private Panel panel6;
         private Panel panel7;
