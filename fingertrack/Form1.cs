@@ -198,7 +198,7 @@ namespace fingertrack
 
                 Form? page = poste switch
                 {
-                    "directeur" => new directeur.DirecteurDashboard(),
+                    "directeur" => new directeur.DirecteurDashboard("Loudi Issam"),
                     "secretaire" or "secrétaire" => new secretaire.SecretaireDshboard(),
                     _ => null
                 };
